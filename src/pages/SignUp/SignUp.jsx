@@ -34,7 +34,6 @@ const SignUp = () => {
     if (signup_data.password === signup_data.confirm_password) {
 
       delete signup_data.confirm_password
-      console.log(JSON.stringify(signup_data))
 
       try {
         const response = await fetch(
