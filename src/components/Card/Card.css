@@ -1,0 +1,32 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 1em 2em;
+}
+
+.card-container .bi{
+    font-size: 2rem;
+    padding: .5em;
+    margin-right: .5em;
+    padding-right: 1em;
+    border-right: 1px solid;
+    position: relative;
+    right: .5em;
+    color: brown;
+}
+
+.card-container .card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-container .card-details .value{
+    font-size: 2rem;
+    font-weight: bolder;
+}

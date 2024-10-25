@@ -1,0 +1,39 @@
+.comment-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-container h1{
+    font-size: 2rem;
+    color: #0b3574b0;
+    margin: 0;
+}
+
+.comment-container small{
+    text-decoration: overline;
+}
+
+.comment-container .textarea{
+    width: 50%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.comment-container button{
+    font-size: 1.2rem;
+    width: 50%;
+    height: 2em;
+    padding: .3em;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: .1em;
+    margin-top: 20px;
+    background-color: #0b3574b0;
+}
+
+.comment-container button:hover{
+    background-color: skyblue;
+}

@@ -1,0 +1,96 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.signup-container .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signup-container .heading .header{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0b3574b0;
+}
+
+.signup-container .heading .mini-header{
+    font-size: 10px;
+}
+
+.signup-container .input{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    outline: none;
+    border: 1px solid;
+}
+
+.signup-container .input-rank{
+    width: 269px;
+    height: 26px;
+}
+
+.signup-container .input-rank .disabled{
+    color: gray;
+}
+
+.signup-container .response{
+    display: none;
+    margin-bottom: 10px;
+    width: 260px;
+}
+
+.signup-container .success{
+    color: green;
+}
+
+.signup-container .fail{
+    color: red;
+}
+
+.signup-container .show{
+    display: block;
+}
+
+.signup-container .button{
+    background-color: #0b3574b0;
+    height: 40px;
+    width: 260px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-container .button:hover{
+    background-color: skyblue;
+}
+
+.signup-container .instruction-container{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.signup-container .instruction{
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.signup-container .instruction .link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0b3574b0;
+}
+
+.signup-container .instruction .link:hover{
+    color: skyblue;
+}

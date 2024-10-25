@@ -1,0 +1,119 @@
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-container .heading{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.registration-container .content{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.registration-container .left-content{
+    width: 100%;
+    margin: 0 30px;
+}
+
+.registration-container .left-content .heading{
+    font-size: large;
+    font-weight: 500;
+    color: #0b3574b0;
+}
+
+.registration-container .left-content .guest-info{
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+}
+
+.registration-container .left-content .guest-info .input-detail{
+    display: flex;
+    margin-top: 10px;
+}
+
+.registration-container .left-content .guest-info .input-detail .label{
+    width: 120px;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+}
+
+.registration-container .left-content .guest-info .input-detail .input{
+    height: 20px;
+    width: 60%;
+    padding: 0 10px;
+}
+
+
+.registration-container .right-content{
+    width: 100%;
+    margin: 0 30px;
+} 
+
+.registration-container .right-content .heading{
+    font-size: large;
+    font-weight: 500;
+    color: #0b3574b0;
+}
+
+.registration-container .right-content .label{
+    width: 120px;
+    font-size: 14px;
+}
+
+.registration-container .right-content .destination .offices{
+    margin: 0 10px;
+    background-color: white;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.registration-container .right-content .description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.registration-container .right-content .description .guest-description{
+    height: 130px;
+    margin-top: 3px;
+}
+.registration-container .right-content .sentry{
+    margin-top: 10px;
+}
+
+.registration-container .right-content .sentry .label{
+    margin-right: 10px;
+    width: 60%;
+}
+
+.registration-container .submit-btn{
+    width: 20%;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background-color: #0b3574b0;
+}
+
+.registration-container .submit-btn:hover{
+    background-color: skyblue;
+}
+
+.registration-container .question{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.registration-container .question .link{
+    text-decoration: none;
+    color:  #0b3574b0;
+    font-weight: bold;
+}

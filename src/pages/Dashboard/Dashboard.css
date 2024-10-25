@@ -1,0 +1,128 @@
+.dashboard-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dashboard-container .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.dashboard-container .header .heading{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.dashboard-container .header .account-details .username{
+    cursor: pointer;
+}
+
+.dashboard-container .header .account-details .dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color: #f2f2f2;
+    background-color: gray;
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.dashboard-container .header .account-details .display{
+    display: none;
+}
+
+.dashboard-container .header .account-details .dropdown small{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dashboard-container .header .account-details .dropdown small:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+
+/* THIS IS THE STYLES FOR THE BODY */
+
+.dashboard-container .body-content .filter{
+    font-size: small;
+}
+
+
+.dashboard-container .body-content .filter .label{
+    margin: 0 10px;
+}
+
+.dashboard-container .body-content .filter  .input{
+    height: 15px;
+    font-size: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.dashboard-container .body-content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style the table headers and cells */
+  .dashboard-container .body-content th {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    background-color: #0b3574b0;
+  }
+
+
+  .dashboard-container .body-content td{
+    padding: 5px;
+    text-align: left;
+  }
+
+  .dashboard-container .body-content tbody tr:hover{
+    
+    background-color: #f2f2f2;
+  }
+
+  .dashboard-container .body-content tbody tr td .view-btn{
+    background-color: #25D366;
+    border-radius: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #f2f2f2;
+  }
+
+  .dashboard-container .body-content tbody tr td .view-btn:hover{
+    background-color: green;
+  }
+
+  .dashboard-container .body-content tbody tr td .delete-btn{
+    background-color: red;
+    border-radius: 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #f2f2f2;
+  }
+
+  .dashboard-container .body-content tbody tr td .delete-btn:hover{
+    background-color: #da0505;
+  }
+  
+  /* Optional: Add a border to the entire table */
+  .dashboard-container .body-content table,   .dashboard-container  .body-content th, .dashboard-container .body-content td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }

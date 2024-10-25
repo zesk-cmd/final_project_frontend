@@ -1,0 +1,75 @@
+.open{
+    font-size: 30px;
+    margin-top: 60px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+
+}
+
+.sidebar-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #444444;
+    margin-top: 60px;
+    height: 100%;
+    width: 15%;
+    color: white;
+    box-sizing: border-box;
+}
+
+.hide {display: none;}
+
+.sidebar-container .bi{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.sidebar-container .close{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sidebar-container .close:hover{
+    color: gray;
+}
+
+.sidebar-container .horizontal-line{
+    color: gray;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 52px;
+}
+
+.sidebar-container .menu-content{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-container .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sidebar-container .menu:hover{
+    background-color: gray;
+}
+

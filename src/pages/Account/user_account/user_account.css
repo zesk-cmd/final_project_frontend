@@ -1,0 +1,16 @@
+.account-content{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.account-content .screen-container{
+    margin-top: 60px;
+    height: calc(100% - 60px);
+    box-sizing: border-box;
+}
+
+.account-content .sidebar{
+    margin-left: 15%;
+    box-sizing: border-box;
+}
